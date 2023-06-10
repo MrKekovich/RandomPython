@@ -57,6 +57,7 @@ class ExtraWindow(ABC, Toplevel):
     def error_message(error):
         error_window = ErrorWindow(error)
 
+
 class TaskMenu(ExtraWindow):
     def __init__(self):
         super().__init__()
